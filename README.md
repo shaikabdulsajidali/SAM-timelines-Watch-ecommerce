@@ -17,7 +17,7 @@ README.md
 ## 🚀 How to Run
 
 
-###Feontend
+###Frontend
 
 ```bash
 cd Frontend
