@@ -1,0 +1,71 @@
+.add-user-container-main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #627984, #576b73, #1c1f26);
+    font-family: 'Poppins', sans-serif;
+}
+
+.add-user-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Poppins', sans-serif;
+}
+
+.add-user-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.add-user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-user-input {
+  margin-bottom: 20px;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-user-input:focus {
+  border-color: #ff6f61;
+  box-shadow: 0 0 5px rgba(255, 111, 97, 0.5);
+  outline: none;
+}
+
+.add-user-button {
+  padding: 12px;
+  background: linear-gradient(90deg, #6d6b8e, #ffb7b7);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.add-user-button:hover {
+  background: linear-gradient(90deg, #abbbe7, #52676e);
+  transform: translateY(-2px);
+}
+
+.add-user-message {
+  text-align: center;
+  margin-top: 20px;
+  color: #ff6f61;
+  font-weight: 600;
+  font-size: 14px;
+}

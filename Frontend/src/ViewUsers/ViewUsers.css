@@ -1,0 +1,59 @@
+.view-users-container {
+  padding: 2rem;
+  background-color: #f7f8f9;
+  min-height: 100vh;
+}
+
+.view-users-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #0d1b2a;
+  margin-bottom: 1.5rem;
+}
+
+.view-users-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.view-users-card {
+  background-color: #ffffff;
+  border: 2px solid #778da9;
+  border-radius: 16px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.view-users-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.view-users-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.8rem;
+  border: 3px solid #1b263b;
+}
+
+.view-users-card h3 {
+  margin: 0.5rem 0;
+  color: #1b263b;
+}
+
+.view-users-card p {
+  color: #415a77;
+  font-size: 0.9rem;
+}
+
+.view-users-error {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  margin-top: 1rem;
+}

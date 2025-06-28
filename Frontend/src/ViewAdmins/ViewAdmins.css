@@ -1,0 +1,48 @@
+.view-container {
+  padding: 2rem;
+  background-color: #e0e1dd; /* Platinum background */
+  min-height: 100vh;
+}
+
+.view-title {
+  font-size: 2rem;
+  color: #0d1b2a; /* Rich Black */
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.view-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.view-card {
+  background-color: #1b263b; /* Oxford Blue */
+  color: #e0e1dd; /* Platinum */
+  padding: 1rem;
+  border-radius: 16px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.view-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.view-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.75rem;
+  border: 2px solid #778da9; /* Silver Lake Blue */
+}

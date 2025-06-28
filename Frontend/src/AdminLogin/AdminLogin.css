@@ -1,0 +1,70 @@
+/* Gradient Background with Glass Effect */
+.admin-login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #263238, #455A64, #607D8B);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Glassmorphism Card */
+.admin-login-form {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 16px;
+  padding: 40px 30px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Title Styling */
+.admin-login-title {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Input Fields */
+.admin-login-input {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+
+.admin-login-input::placeholder {
+  color: #E0E0E0;
+}
+
+.admin-login-input:focus {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 5px #D4AF37;
+}
+
+/* Button Styling */
+.admin-login-button {
+  padding: 12px;
+  background: linear-gradient(45deg, #f90909, #fab5b5);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.4s ease, transform 0.2s ease;
+}
+
+.admin-login-button:hover {
+  background: linear-gradient(45deg, #e4a4a4, #d43737);
+  transform: scale(1.05);
+}
